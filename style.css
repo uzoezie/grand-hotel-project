@@ -1,3 +1,6 @@
+
+/* common codes */
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -8,3 +11,80 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+/* end of common codes */
+
+
+/* navbar */
+
+/* sidebar */
+.sidebar {
+    width: 8rem;
+    height: 100%;
+    background-color: #eee;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icons {
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.line {
+    width: 2.5rem;
+    height: .2rem;
+    background-color: #222;
+    margin-bottom: .6rem;
+}
+
+.line-1, .line-3 {
+    width: 1.6rem;
+    transition:width .3s;
+}
+
+.menu-icons:hover .line {
+    width: 2.5rem;
+}
+
+
+.social-media-list {
+    list-style-type: none;
+    padding: 0;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-link {
+    font-size: 2rem;
+    color: #777;
+    transition: color 3s;
+}
+
+.social-link:hover {
+    color: #deaa86;
+}
+
+.year {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #555;
+}
+/* end of sidebar */
+
+/* navigation */
+.navigation {
+    margin-left: 8rem;
+    position: fixed;
+}
+
+
+
+/* end of navigation */
+
+/* end of navbar */
