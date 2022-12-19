@@ -301,3 +301,45 @@ body {
     }
 }
 /* end of header */
+
+/* about us */
+.about-us {
+    margin-left: 8rem;
+    display: flex;
+    background-color: #ddd;
+}
+
+.about-us-content {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    box-sizing: border-box;
+}
+
+.about-us-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.big-underline {
+    width: 20rem;
+    height: .1rem;
+    background-color: #b85d1c;
+}
+
+.small-underline {
+    width: 9rem;
+    height: .1rem;
+    background-color: #b85d1c;
+}
+
+.about-us-images {
+    flex: 1 1;
+}
+/* end of about us */
